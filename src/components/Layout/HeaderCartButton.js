@@ -31,6 +31,7 @@ const HeaderCartButton = (props) => {
     }, 300);
 
     return () => {
+      // Called before useEffect
       clearTimeout(timer);
     };
   }, [items]);
